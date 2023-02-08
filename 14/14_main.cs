@@ -4,7 +4,7 @@ namespace _14
 {
     class Car
     {
-        public List<Car> cars = new List<Car>();
+        public static List<Car> cars = new List<Car>();
         public static int counter = 0;
         public decimal odometer = 0;
         public void Drive(decimal kms)
